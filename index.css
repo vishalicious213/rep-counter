@@ -45,6 +45,11 @@ button {
     width: 12rem;
     margin-bottom: .25rem;
     border-radius: .5rem;
+    opacity: .8;
+}
+
+button:hover {
+    opacity: 1;
 }
 
 #increment-btn {
