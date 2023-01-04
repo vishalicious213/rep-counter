@@ -18,29 +18,42 @@ body {
     justify-content: center;
     background: rgba(0, 0, 0, 0.3);
     padding: 1rem;
-    width: 50%;
+    width: 70%;
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: white;
 }
 
 h2 {
-    outline: 1px solid red;
     font-size: 4rem;
     margin-top: .5rem;
     margin-bottom: 1rem;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .instructions {
     margin: 0;
+}
+
+#reps {
+    display: flex;
+    flex-direction: column;
+}
+
+#count-el {
+    outline: 1px solid steelblue;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: .5rem;
+    width: 25rem;
+    margin-top: 2rem;
+    
 }
 
 button {
@@ -48,10 +61,10 @@ button {
     padding-top: .75rem;
     padding-bottom: .75rem;
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-    width: 15rem;
-    margin-bottom: .25rem;
+    width: 25rem;
+    margin-bottom: .5rem;
     border-radius: .5rem;
     opacity: .8;
 }
@@ -75,15 +88,10 @@ button:hover {
 
 #save-el {
     outline: 1px solid steelblue;
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: .5rem;
     width: 90%;
-    min-height: 2rem;
+    min-height: 4rem;
     margin-top: .25rem;
-    font-size: 1.5rem;
+    font-size: 4rem;
 }
-/* 
-@media only screen and (min-width: 480px) {
-    #container {
-        max-width: 480px;
-    }
-} */
