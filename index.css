@@ -18,18 +18,25 @@ body {
     justify-content: center;
     background: rgba(0, 0, 0, 0.3);
     padding: 1rem;
+    width: 50%;
 }
 
 h1 {
+    font-size: 3.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: white;
 }
 
 h2 {
+    outline: 1px solid red;
     font-size: 4rem;
     margin-top: .5rem;
     margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 .instructions {
@@ -38,11 +45,12 @@ h2 {
 
 button {
     border: none;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
     color: white;
+    font-size: 2rem;
     font-weight: bold;
-    width: 12rem;
+    width: 15rem;
     margin-bottom: .25rem;
     border-radius: .5rem;
     opacity: .8;
@@ -73,3 +81,9 @@ button:hover {
     margin-top: .25rem;
     font-size: 1.5rem;
 }
+/* 
+@media only screen and (min-width: 480px) {
+    #container {
+        max-width: 480px;
+    }
+} */
