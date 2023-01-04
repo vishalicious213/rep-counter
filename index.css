@@ -38,6 +38,10 @@ p {
     font-size: 2rem;
 }
 
+span {
+    color: white;
+}
+
 .instructions {
     margin: 0;
 }
@@ -65,6 +69,7 @@ button {
     font-weight: bold;
     width: 25rem;
     margin-bottom: .5rem;
+    margin-top: 1rem;
     border-radius: .5rem;
     opacity: .8;
 }
@@ -94,4 +99,52 @@ button:hover {
     min-height: 4rem;
     margin-top: .25rem;
     font-size: 4rem;
+}
+
+@media only screen and (min-width: 360px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: .8rem;
+    }
+
+    #count-el {
+        width: 15rem;
+        margin: 2rem auto 1rem;
+    }
+
+    button {
+        font-size: 2rem;
+        width: 15rem;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    #count-el {
+        width: 20rem;
+        margin: 2rem auto 1rem;
+    }
+
+    button {
+        font-size: 2rem;
+        width: 20rem;
+    }
 }
