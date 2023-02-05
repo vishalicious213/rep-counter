@@ -5,6 +5,16 @@ Quickly track the number of reps done in a set when working out, or the number o
 - Increment the number of reps done in a set or minutes that it took to walk/run a lap
 - Save the reps/lap time and enter a new one
 
+Original design from Scrimba:
+
+![](https://github.com/vishalicious213/rep-counter/blob/main/scrimba-design.jpg?raw=true)
+
+My design:
+
+![](https://vish213-portfolio-v3.netlify.app/static/media/rep-counter.b7fd54bb.jpg)
+
+Deployed at: https://vish213-reps.netlify.app/
+
 ## JavaScript concepts
 
 - variables
@@ -12,5 +22,3 @@ Quickly track the number of reps done in a set when working out, or the number o
 - document.getElementById()
 - textContent
 - +=
-
-Deployed at: https://vish213-reps.netlify.app/
